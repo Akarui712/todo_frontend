@@ -8,7 +8,7 @@ services:
       dockerfile: Dockerfile
       args:
         #VITE_KEYCLOAK_URL: 'http://localhost:8081'
-        VITE_KEYCLOAK_URL: 'https://j6t9s9cj-8081.usw3.devtunnels.ms'
+        VITE_KEYCLOAK_URL: 'https://j6t9s9cj-8081.usw3.devtunnels.ms/'
         VITE_KEYCLOAK_REALM: 'Fernys_Realm'
         VITE_KEYCLOAK_CLIENT_ID: 'RoHeFerny'
         VITE_API_BASE_URL: 'http://localhost:8080/api/v1'
@@ -63,7 +63,7 @@ services:
       KC_DB_URL_DATABASE: todo_db_v2
       KC_DB_SCHEMA: keycloak
       # Config
-      KC_HOSTNAME: j6t9s9cj-8081.usw3.devtunnels.ms
+      KC_HOSTNAME: https://j6t9s9cj-8081.usw3.devtunnels.ms/
       KC_HOSTNAME_STRICT: 'false'
       KC_HTTP_ENABLED: 'true'
       KC_PROXY: edge
