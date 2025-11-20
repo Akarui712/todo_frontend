@@ -12,7 +12,7 @@ if (!url || !realm || !clientId) {
 }
 
 const keycloak = new Keycloak({
-  url: url || 'http://localhost:8080',
+  url: url || 'https://j6t9s9cj-8080.usw3.devtunnels.ms/',
   realm: realm || 'myrealm',
   clientId: clientId || 'todo-frontend',
 });
