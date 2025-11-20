@@ -12,10 +12,10 @@ export default function TodoItem({ todo, onToggle, onChangeStatus, onDelete }: T
     
   const getStatusColor = (status: TodoStatus) => {
     switch (status) {
-      case 'IN_PROGRESS':
-        return 'bg-yellow-100 text-yellow-700';
       case 'COMPLETED':
         return 'bg-green-100 text-green-700';
+      case 'IN_PROGRESS':
+        return 'bg-yellow-100 text-yellow-700';
       case 'CANCELLED':
         return 'bg-red-100 text-red-700';
       default:
@@ -25,10 +25,10 @@ export default function TodoItem({ todo, onToggle, onChangeStatus, onDelete }: T
 
   const getStatusLabel = (status: TodoStatus) => {
     switch (status) {
-      case 'IN_PROGRESS':
-        return 'En Progreso';
       case 'COMPLETED':
         return 'Completada';
+      case 'IN_PROGRESS':
+        return 'En Progreso';
       case 'CANCELLED':
         return 'Cancelada';
       default:
