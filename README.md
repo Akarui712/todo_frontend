@@ -71,3 +71,5 @@ export default defineConfig([
   },
 ])
 ```
+# Frontend en Vercel 20_Nov_2025
+![Ver documento PDF](https://github.com/Akarui712/todo_frontend/blob/e9a22b8cb0aa473f84496a26e947daca84dd5dbe/DAW_U4_Vercel_RHMF.pdf)
