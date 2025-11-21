@@ -10,7 +10,7 @@ services:
         VITE_KEYCLOAK_URL: 'https://j6t9s9cj-8081.usw3.devtunnels.ms/'
         VITE_KEYCLOAK_REALM: 'Fernys_Realm'
         VITE_KEYCLOAK_CLIENT_ID: 'RoHeFerny'
-        VITE_API_BASE_URL: 'https://j6t9s9cj-8080.usw3.devtunnels.ms/api/v1'
+        VITE_API_BASE_URL: 'https://j6t9s9cj-8080.usw3.devtunnels.ms/api/v1/*'
     ports:
       - "8083:80"
     restart: unless-stopped
